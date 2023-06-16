@@ -1,21 +1,3 @@
-## Install This first (Prerequisite Tools )
-
->[!example] Prerequisite Tools
->- `sudo apt-get update & sudo apt-get upgrade`
->- `sudo apt install zsh zsh-autocomplete zsh-common zsh-autosuggestions zsh-syntax-highlighting`
->- `chsh -s $(which zsh)`  Then enter this to make your default shell as zsh and logout and logback in for changes to take effect
->- To update anyfile `sudo source [filename]`
- >- If  Ctrl+ Left/Right not working  add below lines to .zshrc
->	bindkey 'D (Key to Replace)' backward-word
->	bindkey 'C (Key to Replace)' forward-word
->- `Install sublime text deb file`
->- `Download deb file of AngryIP scanner `
->- `Make root user as default terminal - sudo su`
->- `sudo apt install nfs-common for getting showmount command`
->- `sudo apt install nfs-kernel-server`
- 
-<hr>
-
 ## Module 2 - Footprinting & Reconnaissance
 
 ### Passive Information Gathering
@@ -549,11 +531,6 @@ https://github.com/pwn0sec/PwnXSS
 ###### Perform CSRF Attack
 
 **Wordpress**
-
-wpscan api token account creds
-- username - pheonixandbreach@protonmail.com
-- password - pheonixandbreach123!
-API Token - jMupXTlQNAwTSV4XCqZfRjN2iKkoO7QWy0ed0VcIvAk
 
 - `wpscan --url IP --enumerate u`
 - `wpscan --url IP --enumerate u`
